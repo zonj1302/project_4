@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Circles</title>
+    <style>
+        * {
+            margin: 0 auto;
+        }
+
+        #container {
+            height: 100vh;
+            background-color: lightgray;
+        }
+        .color-section {
+            width: 75%;
+            padding: 5px;
+            position: relative;
+        }
+        .green {
+            background-color: green;
+            width: 100px;
+            height: 60px;
+            border-radius: 5px;
+            border: 3px solid black;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 30px;
+        }
+        .blue {
+            background-color: blue;
+            width: 100px;
+            height: 60px;
+            border-radius: 5px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 30px;
+        }
+        .purple {
+            background-color: purple;
+            width: 100px;
+            height: 60px;
+            border-radius: 5px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 30px;
+        }
+        #reset-btn {
+            text-decoration: none;
+            color: white;
+            background: red;
+            width: 80px;
+            padding: 5px;
+            border-radius: 5px;
+            text-align: center;
+            position: absolute;
+            right: 0px;
+            top: 20px;
+        }
+    </style>
+    <script src="./3 Drawing Circles.js" defer></script>
+</head>
+<body>
+    <div class="color-section">
+        <div class="green" id="green"></div>
+        <div class="blue"  id="blue"></div>
+        <div class="purple"  id="purple"></div>
+        <a href="#" id="reset-btn">Reset</a>
+    </div>
+    <div id="container">
+    </div>
+</body>
+</html>
