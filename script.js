@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const p = document.createElement("p");
         let intialSize = Math.floor((Math.random() * 250) + 100);
         p.style.width = `${intialSize}px`;
-        // p.style.width = `${Math.floor((Math.random() * 250) + 100)}px`;
         p.style.height = p.style.width;
         p.style.borderRadius = "50%";
         p.style.backgroundColor = color;
